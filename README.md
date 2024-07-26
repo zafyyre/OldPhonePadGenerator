@@ -43,7 +43,7 @@ To use the `OldPhonePadGenerator` in your project, follow these steps:
 
 You can use the `OldPhonePad` method to convert a string of keypresses into the corresponding text. Here's an example of how to use it:
 
-\`\`\`csharp
+```sh
 using System;
 
 public class Program
@@ -55,13 +55,13 @@ public class Program
         Console.WriteLine(output); // Output: IRON SOFTWARE RULES
     }
 }
-\`\`\`
+```
 
 ### Running Unit Tests
 
 Unit tests are included to verify the functionality of the `OldPhonePad` method. You can run the tests using the `OldPhonePadGeneratorTests` class in the `OldPhonePadGeneratorTests.cs`:
 
-\`\`\`csharp
+```sh
 using System;
 
 public class Program
@@ -71,7 +71,7 @@ public class Program
         OldPhonePadGeneratorTests.RunTests();
     }
 }
-\`\`\`
+```
 
 ## Documentation
 
@@ -99,27 +99,27 @@ public class Program
 
 ### Example 1: Simple Conversion
 
-\`\`\`csharp
+```sh
 string input = "33#";
 string output = OldPhonePadGenerator.OldPhonePad(input);
 Console.WriteLine(output); // Output: E
-\`\`\`
+```
 
 ### Example 2: Handling Deletions
 
-\`\`\`csharp
+```sh
 string input = "227*#";
 string output = OldPhonePadGenerator.OldPhonePad(input);
 Console.WriteLine(output); // Output: B
-\`\`\`
+```
 
 ### Example 3: Complex Conversion
 
-\`\`\`csharp
+```sh
 string input = "4433555 555666#";
 string output = OldPhonePadGenerator.OldPhonePad(input);
 Console.WriteLine(output); // Output: HELLO
-\`\`\`
+```
 
 ## Contributor
 
